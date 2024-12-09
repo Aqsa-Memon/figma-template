@@ -17,7 +17,7 @@ function Hero() {
             Quality
           </p>
         </h1>
-
+  
         <p className="text-[10px] md:text-[16px] font-normal">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
           pharetra dictum neque massa congue

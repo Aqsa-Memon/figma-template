@@ -18,7 +18,7 @@ function AboutUs() {
               </h1>
 
               <h1 className="text-[20px] md:text-[50px] font-bold whitespace-nowrap md:whitespace-normal">
-                  <span className="text-[hashtag#FF9F0D]">We</span> Create the best
+                  <span className="text-[#FF9F0D]">We</span> Create the best
                   foody product
               </h1>
 
@@ -52,7 +52,7 @@ function AboutUs() {
               </ul>
 
               <div className="flex flex-col md:flex-row items-center md:items-start">
-                  <button className="bg-[hashtag#FF9F0D] text-white w-[100px] h-[30px] md:w-[190px] md:h-[60px] rounded-[40px] mt-[32px] hover:bg-yellow-800">
+                  <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[190px] md:h-[60px] rounded-[40px] mt-[32px] hover:bg-yellow-800">
                       See More
                   </button>
               </div>

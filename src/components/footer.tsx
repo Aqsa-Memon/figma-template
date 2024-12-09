@@ -1,10 +1,7 @@
-
-
 import React from "react";
 import Image from "next/image";
 
 import { PiClockClockwiseBold } from "react-icons/pi";
-
 
 const Footer = () => {
   return (
@@ -36,7 +33,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl ">
         <div className="grid grid-cols-2  md:gap-[50px] px-0 md:px-[135px] py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 className="mb-6 text-[24px] font-semibold dark:text-white">
+            <h2 className="mb-6 text-[24px] font-semibold text-white">
               About Us.
             </h2>
             <ul className="text-gray-500  font-medium">
@@ -60,14 +57,14 @@ const Footer = () => {
                     Mon - Sat(8.00 - 6.00)
                   </h3>
                   <h3 className="text-[10px] font-normal text-[#FFFFFF]">
-                    Sunday -_- Closed
+                    Sunday - Closed
                   </h3>
                 </div>
               </li>
             </ul>
           </div>
           <div className="">
-            <h2 className="mb-6 text-[24px] font-semibold dark:text-white">
+            <h2 className="mb-6 text-[24px] font-semibold text-white">
               Useful Links
             </h2>
             <ul className="text-[#FFFFFF] font-medium">
@@ -106,9 +103,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-10 md:mt-0">
-            <h2 className="mb-6 text-[24px] font-semibold dark:text-white">
-              Help?
-            </h2>
+            <h2 className="mb-6 text-[24px] font-semibold text-white">Help?</h2>
             <ul className="text-[#FFFFFF] font-medium">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
@@ -145,7 +140,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-10 md:mt-0">
-            <h2 className="mb-6 text-[24px] font-semibold dark:text-white">
+            <h2 className="mb-6 text-[24px] font-semibold text-white">
               Recent Post
             </h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-[14px]">
@@ -153,104 +148,16 @@ const Footer = () => {
               <li className="flex gap-[16.5px]">
                 <Image src={"/footr.png"} height={50} width={50} alt="Fod" />
                 <div className="ml-1">
-                  <h2
-                    className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-                  >
-                    20 Feb 2022
-                  </h2>
-                  <h3
-                    className="    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]"
-                  >
-                    Keep Your Business
-                  </h3>
-                </div>
-              </li>
-
-              {/* Post 2 */}
-              <li className="flex gap-[16.5px]">
-                <Image src={"/footr.png"} height={50} width={50} alt="Fod" />
-                <div className="ml-1">
-                  <h2
-                    className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-                  >
-                    20 Feb 2022
-                  </h2>
-                  <h3
-                    className="    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]"
-                  >
-                    Keep Your Business
-                  </h3>
-                </div>
-              </li>
-
-              {/* Post 3 */}
-              <li className="flex gap-[16.5px]">
-                <Image src={"/footr.png"} height={50} width={50} alt="Fod" />
-                <div className="ml-1">
-                  <h2
-                    className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-                  >
-                    20 Feb 2022
-                  </h2>
-                  <h3
-                    className="t    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]"
-                  >
-                    Keep Your Business
-                  </h3>
+                  <h3>Keep Your Business</h3>
                 </div>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="w-[100%] px-4 py-6 bg-gray-100 dark:bg-[#FF9F0D] md:flex md:items-center md:justify-between">
+        <div className="w-[100%] px-4 py-6 bg-[#FF9F0D] dark:bg-[#FF9F0D] md:flex md:items-center md:justify-between">
           <span className="text-sm text-[#FFFFFF] sm:text-center">
-            Copyright @ 2024 by Sufyan Khan. All RightsReserved.
+            Copyright @ 2024 by UROOJ MEMON . All RightsReserved.
           </span>
         </div>
       </div>
